@@ -1,7 +1,75 @@
 # Coding Interview University
 
+> I originally created this as a short to-do list of study topics for becoming a software engineer,
+> but it grew to the large list you see today. After going through this study plan, [I got hired
+> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> You probably won't have to study as much as I did. Anyway, everything you need is here.
+>
+> The items listed here will prepare you well for an interview at just about any software company,
+> including the giants: Amazon, Facebook, Google or Microsoft.
+>
+> *Best of luck to you!*
+
+<details>
+<summary>Translations:</summary>
+
+- [中文版本](translations/README-cn.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+
+</details>
+
+<details>
+<summary>Translations in progress:</summary>
+
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [French](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
+- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
+
+</details>
+
+## What is it?
+
+This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+
+![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
+
+This is meant for **new software engineers** or those switching from
+software/web development to software engineering (where computer science knowledge is required). If you have
+many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+
+If you have many years of software/web development experience, note that large software companies like Google, Amazon,
+Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+
+If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+
+---
+
 ## Table of Contents
 
+- [What is it?](#what-is-it)
+- [Why use it?](#why-use-it)
+- [How to use it](#how-to-use-it)
+- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
+- [About Video Resources](#about-video-resources)
+- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
+- [Book List](#book-list)
 - [Before you Get Started](#before-you-get-started)
 - [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -65,6 +133,9 @@
 
 ---------------- Everything below this point is optional ----------------
 
+<details>
+<summary>Additional Resources</summary>
+
 - [Additional Books](#additional-books)
 - [Additional Learning](#additional-learning)
     - [Compilers](#compilers)
@@ -108,7 +179,128 @@
 - [Video Series](#video-series)
 - [Computer Science Courses](#computer-science-courses)
 
+</details>
+
 ---
+
+## Why use it?
+
+When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
+traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
+Every data structure I've ever used was built into the language, and I didn't know how they worked
+under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
+memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
+thousands of associative arrays, but I've never created data structures from scratch.
+
+It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+
+## How to use it
+
+<details>
+<summary>How to use it</summary>
+
+Everything below is an outline, and you should tackle the items in order from top to bottom.
+
+I'm using Github's special markdown flavor, including tasks lists to check progress.
+
+**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+
+
+    Fork a branch and follow the commands below
+
+`git checkout -b progress`
+
+`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+
+`git fetch --all`
+
+    Mark all boxes with X after you completed your changes
+
+`git add . `
+
+`git commit -m "Marked x" `
+
+`git rebase jwasham/master `
+
+`git push --force `
+
+[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+
+</details>
+
+## Don't feel you aren't smart enough
+- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
+
+## About Video Resources
+
+Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
+Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
+
+    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
+    I like using university lectures.
+
+
+## Interview Process & General Interview Prep
+
+<details>
+<summary>Interview Process & General Interview Prep</summary>
+
+- [X] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] Cracking The Coding Interview Set 1:
+    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] How to Get a Job at the Big 4:
+    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+
+- [ ] Prep Course:
+    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
+    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
+
+</details>
+
+## Pick One Language for the Interview
+
+You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+
+- C++
+- Java
+- Python
+
+You could also use these, but read around first. There may be caveats:
+
+- JavaScript
+- Ruby
+
+You need to be very comfortable in the language and be knowledgeable.
+
+Read more about choices:
+- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
+- http://blog.codingforinterviews.com/best-programming-language-jobs/
+
+[See language resources here](programming-language-resources.md)
+
+You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+
+## Book List
+
+This is a shorter list than what I used. This is abbreviated to save you time.
+
+### Interview Prep
+
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+    - answers in C++ and Java
+    - this is a good warm-up for Cracking the Coding Interview
+    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - answers in Java
 
 ## Before you Get Started
 
@@ -199,6 +391,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Prerequisite Knowledge
 
+<details>
+<summary>Prerequisite Knowledge</summary>
+
 - [X] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
     - [X] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
@@ -213,7 +408,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [X] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
     - [X] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
+</details>
+
 ## Algorithmic complexity / Big-O / Asymptotic analysis
+
+<details>
+<summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
+
 - nothing to implement
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
@@ -237,7 +438,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     If some of the lectures are too mathy, you can jump down to the bottom and
     watch the discrete mathematics videos to get the background knowledge.
 
+</details>
+
 ## Data Structures
+
+<details>
+<summary>Data Structures</summary>
 
 - ### Arrays
     - Implement an automatically resizing vector.
@@ -364,7 +570,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - get(key)
         - remove(key)
 
+</details>
+
 ## More Knowledge
+
+<details>
+<summary>More Knowledge</summary>
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -384,8 +595,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
         - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
         - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-        - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
-        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
+        - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
+        - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
     - [ ] 2s and 1s complement
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
@@ -395,13 +606,18 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
     - [ ] round to next power of 2:
-        - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
+        - [Round Up To Next Power Of Two](https://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
     - [ ] swap values:
-        - [Swap](http://bits.stephan-brumme.com/swap.html)
+        - [Swap](https://bits.stephan-brumme.com/swap.html)
     - [ ] absolute value:
-        - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
+        - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
+
+</details>
 
 ## Trees
+
+<details>
+<summary>Trees</summary>
 
 - ### Trees - Notes & Background
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
@@ -482,7 +698,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
+</details>
+
 ## Sorting
+
+<details>
+<summary>Sorting</summary>
 
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
@@ -557,7 +778,12 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 As a summary, here is a visual representation of [15 sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg).
 If you need more detail on this subject, see "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
+</details>
+
 ## Graphs
+
+<details>
+<summary>Graphs</summary>
 
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
 
@@ -619,7 +845,12 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
 
+</details>
+
 ## Even More Knowledge
+
+<details>
+<summary>Even More Knowledge</summary>
 
 - ### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
@@ -906,7 +1137,13 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [Java - Sockets - Introduction (video)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
         - [ ] [Socket Programming (video)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
+</details>
+
 ## System Design, Scalability, Data Handling
+
+<details>
+<summary>System Design, Scalability, Data Handling</summary>
+
 - **You can expect system design questions if you have 4+ years of experience.**
 - Scalability and System Design are very large topics with many topics and resources, since
       there is a lot to consider when designing a software/hardware system that can scale.
@@ -1032,9 +1269,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
         - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
+</details>
+
 ---
 
 ## Final Review
+
+<details>
+<summary>Final Review</summary>
 
     This section will have shorter videos that you can watch pretty quickly to review most of the important concepts.
     It's nice if you want a refresher often.
@@ -1046,9 +1288,14 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Sedgewick Videos - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
+</details>
+
 ---
 
 ## Coding Question Practice
+
+<details>
+<summary>Coding Question Practice</summary>
 
 Now that you know all the computer science topics above, it's time to practice answering coding problems.
 
@@ -1088,7 +1335,12 @@ Supplemental:
 
 See [Book List above](#book-list)
 
+</details>
+
 ## Coding exercises/challenges
+
+<details>
+<summary>Coding Question Practice</summary>
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
@@ -1121,6 +1373,8 @@ Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/) - I used this and it helped me relax for the phone screen and on-site interview.
 - [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
 - [Refdash: Mock interviews and expedited interviews](https://refdash.com/) - also help candidates fast track by skipping multiple interviews with tech companies.
+
+</details>
 
 ## Once you're closer to the interview
 
@@ -1189,6 +1443,9 @@ You're never really done.
 
 ## Additional Books
 
+<details>
+<summary>Additional Books</summary>
+
 - [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
     - an oldie but a goodie
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
@@ -1201,7 +1458,12 @@ You're never really done.
     - the canonical design patterns book
 - [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
 
+</details>
+
 ## Additional Learning
+
+<details>
+<summary>Additional Learning</summary>
 
 These topics will likely not come up in an interview, but I added them to help you become a well-rounded
 software engineer, and to be aware of certain technologies and algorithms, so you'll have a bigger toolbox.
@@ -1530,9 +1792,14 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
         - Data School: http://www.dataschool.io/
 
---
+</details>
+
+---
 
 ## Additional Detail on Some Subjects
+
+<details>
+<summary>Additional Detail on Some Subjects</summary>
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
@@ -1602,9 +1869,14 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [lecture begins at 35:00 (video)](https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
         - [ ] [lecture begins at 23:50 (video)](https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10)
 
+</details>
+
 ## Video Series
 
 Sit back and enjoy. "Netflix and skill" :P
+
+<details>
+<summary>Video Series</summary>
 
 - [ ] [List of individual Dynamic Programming problems (each is short)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 
@@ -1666,7 +1938,18 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Graph Theory by Sarada Herke (67 videos)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
+</details>
+
 ## Computer Science Courses
+
+<details>
+<summary>Computer Science Courses</summary>
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
+
+</details>
+
+## LICENSE
+
+[CC-BY-SA-4.0](./LICENSE.txt)
